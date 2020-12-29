@@ -1,0 +1,74 @@
+.container-wrap {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container-left {
+  position: relative;
+  width: 45%;
+  float: left;
+}
+
+.container-right {
+  position: relative;
+  width: 45%;
+  float: right;
+}
+
+/* avoid messing with stuff below here */
+
+.container-right div p,
+.container-left div p {
+  position: absolute;
+}
+
+.button-fade {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+}
+
+.button {
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+}
+
+.button p {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button p:before {
+  content: '';
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+
+.button-fade {
+  transition: 1.5s;
+}
+
+.button-hover:hover {
+  opacity: 0;
+}
