@@ -8,7 +8,7 @@
 /* Mess with this to change the size of stuff */
 .container-left {
   position: relative;
-  width: 35%;
+  width: 20%;
   /* max-width: 550px; */
   float: left;
   margin-left: 4rem;
@@ -16,7 +16,7 @@
 
 .container-right {
   position: relative;
-  width: 35%;
+  width: 20%;
   /* max-width: 550px; */
   float: right;
   margin-right: 4rem;
@@ -24,7 +24,7 @@
 
 .container-middle {
   position: relative;
-  width: 35%;
+  width: 20%;
   /* max-width: 550px; */
   margin-left: auto;
   margin-right: auto;
