@@ -6,7 +6,7 @@
       <!-- Stylesheets -->
 
       <link rel="stylesheet" type="text/css" href="styles/default.css">
-      <link rel="stylesheet" type="text/css" href="styles/effects.css">
+      <link rel="stylesheet" type="text/css" href="styles/graphics.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="js/main.js"></script>
 
@@ -16,18 +16,33 @@
     </head>
 
     <body>
-
-      <a class="default" href="index.html"><h1>Victoria Maness</h1></a>
-
+      <!-- Navigation Bar -->
+      <header>
+        <div id="wrapper">
+            <a class="default" href="index.html"><h1>Victoria Maness</h1><h1 id="subheader">| Marketing Professional</h1></a>
+          <div id="right-nav">
+          <ul>
+            <li><a class="default" href="VictoriaManessresume.pdf">Resume</a></li>
+            <li><a class="default" href="mailto: victoriakmaness@gmail.com">Email</a></li>
+          </ul>
+          </div>
+        </div>
+      </header>
+      <!-- This is your content -->
+      <main role="main" id="center">
 
       <h2>Graphics</h2>
       <p>Here's a compilation of some of my graphics that I created through Adobe Creative Cloud apps.</p>
 
-      <img src="img/koam.jpg" alt="Koam logo"
+      <img id="graphic" src="img/koam.jpg" alt="Koam logo"
       width="80%" height="80%">
-      <img src="img/knottymarketing.jpg" alt="Knotting Marketing logo"
+      <img id="graphic" src="img/knottymarketing.jpg" alt="Knotting Marketing logo"
       width="80%" height="80%">
-      <img src="img/cinco.jpg" alt="Cinco poster"
+      <img id="graphic" src="img/cinco.jpg" alt="Cinco poster"
       width="80%" height="80%">
-      <img src="img/ccad.jpg" alt="CC ad"
+      <img id="graphic" src="img/ccad.jpg" alt="CC ad"
       width="80%" height="80%">
+
+    </main>
+  </body>
+</html>
