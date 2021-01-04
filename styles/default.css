@@ -44,7 +44,7 @@ h2 {
 }
 
 #wrapper ul li {
-  align-items: center;
+  vertical-align: bottom;
   text-align: right;
   display: inline-flex;
   padding-left: 1.5rem;
@@ -72,6 +72,19 @@ h2 {
 
 #wrapper {
   width: 100%;
-  align-items: center;
+  vertical-align: bottom;
   overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#subheader {
+  margin-left: 1rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+  vertical-align: bottom;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#center {
+    text-align: center;
 }
