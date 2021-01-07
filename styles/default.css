@@ -19,12 +19,12 @@ a.default:hover {
 }
 
 ul {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-inline-start: 0px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 #resume_location {
@@ -87,4 +87,9 @@ h2 {
 
 #center {
     text-align: center;
+}
+
+#thicc {
+  margin-right: 15rem;
+  margin-left: 15rem;
 }

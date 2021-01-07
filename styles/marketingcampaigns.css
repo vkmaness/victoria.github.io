@@ -5,3 +5,28 @@ h3 {
 span {
     color: darkgreen;
 }
+
+h2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+div.b {
+  line-height: 40px;
+}
+
+#thicc {
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+#graphic {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}

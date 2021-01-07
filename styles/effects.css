@@ -1,8 +1,8 @@
 .container-wrap {
   width: 100%;
   overflow: hidden;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Mess with this to change the size of stuff */
@@ -11,7 +11,7 @@
   width: 32%;
   /* max-width: 550px; */
   float: left;
-  margin-left: 3rem;
+  margin-left: 7rem;
 }
 
 .container-right {
@@ -19,7 +19,7 @@
   width: 32%;
   /* max-width: 550px; */
   float: right;
-  margin-right: 3rem;
+  margin-right: 7rem;
 }
 
 .container-middle {
