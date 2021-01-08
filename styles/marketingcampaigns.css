@@ -22,11 +22,15 @@ div.b {
 }
 
 #thicc {
-  margin-right: 15rem;
-  margin-left: 15rem;
+  margin-right: 19rem;
+  margin-left: 19rem;
 }
 
 #graphic {
   margin-top: 1rem;
   margin-bottom: 4rem;
+}
+
+div.c {
+  color: red;
 }
